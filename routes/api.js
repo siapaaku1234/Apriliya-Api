@@ -12,7 +12,7 @@ var lolkill = db.get("lolkill");
 var creatorList = ['Ari','Ari susanto','Rii','Pril','Lolkill','LoliKillers','Apriliya','Apriliya putri fatmawati','Apriliya Kingdom'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
-keyapi = 'LoliKillers'
+keyapi = 'vallxcode7'
 
 var axios = require('axios');
 var qs = require('qs');
