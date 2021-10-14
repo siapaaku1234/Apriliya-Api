@@ -1261,7 +1261,7 @@ router.get('/simsimi', async (req, res, next) => {
     if (!apikey) return res.sendFile(__path + '/docs/403.html')
     if (apikey != `${keyapi}`) return res.sendFile(__path + '/docs/403.html')
 	if (!query) return res.sendFile(__path + '/docs/406.html')
-       fetch(encodeURI(`https://api.simsimi.net/v1/?text=${query}&lang=id&cf=true`))
+       fetch(encodeURI(`https://api.simsimi.net/v2/?text=${query}&lang=id&cf=true`))
         .then(response => response.json())
         .then(data => {
         var data = data;
