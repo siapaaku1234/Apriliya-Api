@@ -9,10 +9,10 @@ var lolkill = db.get("lolkill");
 	console.log('')
 }
 
-var creatorList = ['Ari','Ari susanto','Rii','Pril','Lolkill','LoliKillers','Apriliya','Apriliya putri fatmawati','Apriliya Kingdom'];
+var creatorList = ['alfinofc','alfinnigan'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
-keyapi = 'vallxcode7'
+keyapi = 'alfinofc'
 
 var axios = require('axios');
 var qs = require('qs');
@@ -76,7 +76,7 @@ var len = 15
             randomlagi += arr[Math.floor(Math.random() * arr.length)];
         }
 
-        var randomTextNumber = random+randomlagi+'---------Apriliya-Putri-Fatmawati'+'LOLI--KILLERS';
+        var randomTextNumber = random+randomlagi+'---------alfinofc'+'mau apa?';
         
  
  async function cekApiKey(api) {
