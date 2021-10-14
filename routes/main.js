@@ -47,15 +47,19 @@ router.get('/docs/fun', (req, res) => {
 	res.sendFile(__path + '/api/fun.html')
 })
 
+router.get('/tutorial', (req, res) => {
+	res.sendFile(__path + '/tutorial.html')
+})
+
 router.get('/config', (req, res) => {
     config = {
         status: true,
         result: {
             prefix : 'Multi Prefix',
-            namabot: 'Apriliya BotZ',
-            namaowner: 'Loli Killer',
-            instagram: 'ariasu_62',
-            github : 'https:\/\/github.com\/LoliKillers',
+            namabot: 'alfinofc',
+            namaowner: 'alfin',
+            instagram: 'alpinnigan',
+            github : 'koosng',
         }
     }
     res.json(config)
