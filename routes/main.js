@@ -47,7 +47,7 @@ router.get('/docs/fun', (req, res) => {
 	res.sendFile(__path + '/api/fun.html')
 })
 
-router.get('/tutorial', (req, res) => {
+router.get('/tutorial.html', (req, res) => {
 	res.sendFile(__path + '/tutorial.html')
 })
 
